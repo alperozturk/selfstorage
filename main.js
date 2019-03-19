@@ -20,13 +20,13 @@ function submitForm(e){
   e.preventDefault();
 
   // Get values
-  var name = getInputVal('name');
-  var email = getInputVal('email');
-  var phone = getInputVal('phone');
-  var message = getInputVal('message');
+  var name = getInputVal('name-form1-3');
+  var email = getInputVal('email-form1-3');
+  var phone = getInputVal('phone-form1-3');
+  var message = getInputVal('message-form1-3');
 
   // Save message
-  saveMessage(name, company, email, phone, message);
+  saveMessage(name, email, phone, message);
 
   // Show alert
   document.querySelector('.alert').style.display = 'block';
@@ -46,7 +46,7 @@ function getInputVal(id){
 }
 
 // Save message to firebase
-function saveMessage(name, company, email, phone, message){
+function saveMessage(name, email, phone, message){
   var newMessageRef = messagesRef.push();
   newMessageRef.set({
     name: name,
