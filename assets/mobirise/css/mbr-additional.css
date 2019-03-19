@@ -1829,9 +1829,9 @@ body {
   }
 }
 .cid-rl7g43EDVo {
-  padding-top: 15px;
-  padding-bottom: 0px;
-  background-color: #f9f9f9;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: #e8f2f2;
 }
 .cid-rl7g43EDVo .mbr-section-subtitle {
   color: #767676;
@@ -1855,7 +1855,7 @@ body {
 .cid-rl7g43EDVo table {
   width: 100% !important;
   margin-top: 6px;
-  border: 1px solid #cccccc;
+  border: 1px solid #55b4d4;
   margin-bottom: 0;
 }
 .cid-rl7g43EDVo table th {
@@ -1864,11 +1864,11 @@ body {
   border-bottom: none;
 }
 .cid-rl7g43EDVo table th:hover {
-  background: #cccccc;
-  color: #000000;
+  background: #55b4d4;
+  color: #ffffff;
 }
 .cid-rl7g43EDVo table td {
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #55b4d4;
 }
 .cid-rl7g43EDVo table.table {
   background: #ffffff;
