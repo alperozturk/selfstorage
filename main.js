@@ -1,11 +1,6 @@
 // Initialize Firebase (ADD YOUR OWN DATA)
 var config = {
-    apiKey: "AIzaSyD-yxLRm6MtJvQE6KjIqabPZ4FQHpjmkUU",
-    authDomain: "self-storage-17c81.firebaseapp.com",
-    databaseURL: "https://self-storage-17c81.firebaseio.com",
-    projectId: "self-storage-17c81",
-    storageBucket: "self-storage-17c81.appspot.com",
-    messagingSenderId: "485107104477"
+    
   };
   firebase.initializeApp(config);
 
